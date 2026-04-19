@@ -1,27 +1,63 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
 
-
+/* 标题 */
 h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
-}
-header {
-    background-color: darkcyan;
-    padding: 20px;
+    font-size: 40px;
     text-align: center;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+/* Header（重点） */
+header {
+    background-color: darkcyan;
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
 .logo {
-    width: 150px;
+    width: 80px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Form */
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
 }
 
